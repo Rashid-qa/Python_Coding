@@ -2,6 +2,8 @@
 print("Welcome to Roller-Coster Ride!")
 hieght = int(input("what is your hieght in cm?\n")) 
 
+# Nested if/else
+
 if hieght >= 120:
   print("Congrates! You can ride roller-coster")
   age = int(input("what is your age?\n"))
