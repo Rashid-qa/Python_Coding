@@ -1,3 +1,4 @@
+#simple roller coster ride project
 print("Welcome to Roller-Coster Ride!")
 hieght = int(input("what is your hieght in cm?\n")) 
 
