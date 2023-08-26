@@ -1,0 +1,23 @@
+pizza = input("what size pizza do you want to order? s, m, or l\n")
+peporoni = input("Do you want peporoni? y, n \n")
+extra_cheese = input(" do you want extra cheese? y or n \n")
+bill = 0
+if pizza == "s":
+  bill += 15
+elif pizza == "m":
+  bill += 20
+else:
+  bill += 25
+
+if peporoni == "y":
+  if pizza == "s":
+    bill += 2
+  else:
+    bill +=3
+    
+if extra_cheese == "y":
+  bill += 1
+
+print(f"your final bill is ${bill}")
+
+  
