@@ -1,0 +1,12 @@
+# import the random module
+import random
+
+# this will generate random number
+random_side = random.randint(0, 1)
+
+if random_side == 1:
+  print("Head")
+else:
+  print("Tail")
+  
+
